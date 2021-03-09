@@ -19,6 +19,7 @@ const firstCharacter = string => {
 };
 
 const firstCharacters = (string, n) => {
+  console.log(n);
   return string.slice(0, n);
 };
 
